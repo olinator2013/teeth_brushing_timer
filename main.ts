@@ -7,7 +7,7 @@ input.onButtonPressed(Button.A, function () {
     counter = 0
     while (counter < max_counter) {
         if (pause2 == false) {
-            basic.pause(1000)
+            basic.pause(500)
             counter += 1
             basic.showNumber(counter)
         } else {
